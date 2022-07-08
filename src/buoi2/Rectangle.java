@@ -1,4 +1,4 @@
-package buoi2;
+
 
 public class Rectangle {
     protected double length;
