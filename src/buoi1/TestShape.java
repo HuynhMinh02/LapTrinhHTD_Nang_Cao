@@ -17,9 +17,37 @@ public class TestShape {
 
         oAreas.HTML();
 
+        System.out.println("Calc Rectangle");
+
         Rectangle r = new Rectangle(6, 6);
 
-        System.out.println("Area = " + ca.calcArea());
+        System.out.println("Area = " + ca.calcArea(r));
+
+        System.out.println("Calc Square");
+
+        Square s = new Square(5);
+
+        System.out.println("Area = " + ca.calcArea(s));
+
+        System.out.println("UU VIET HON ");
+
+        System.out.println("Calc Rectangle");
+
+        Rectangle r1 = new Rectangle(10, 9);
+
+        System.out.println("Area = " + ca.calcArea(r1));
+
+        System.out.println("Calc Square");
+
+        Square s1 = new Square(10);
+
+        System.out.println("Area = " + ca.calcArea(s1));
+
+        System.out.println("Calc Circle");
+
+        Circle c1 = new Circle(5);
+
+        System.out.println("Area = " + ca.calcArea(c1));
 
     }
 }

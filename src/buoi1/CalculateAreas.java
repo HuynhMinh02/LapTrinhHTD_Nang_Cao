@@ -21,10 +21,21 @@ public class CalculateAreas {
 
     private double area;
 
-    public double calcArea() {
-        area = s.length * s.width;
+    public double calcArea(Rectangle r) {
+        area = r.length * r.width;
 
         return area;
     }
 
+    public double calcArea(Square s) {
+        area = s.side * s.side;
+
+        return area;
+    }
+    //toi uu hon
+    public double calcArea(Shape s) {
+        area = s.getArea();
+
+        return area;
+    }
 }

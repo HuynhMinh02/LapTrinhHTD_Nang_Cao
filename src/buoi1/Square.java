@@ -1,6 +1,6 @@
 public class Square extends Shape {
 
-    private double side;
+    protected double side;
 
     public Square (double s) {
         side = s;
@@ -9,6 +9,10 @@ public class Square extends Shape {
     public double calcArea() {
         area = side * side;
         return (area);
+    }
+    @Override
+    public double getArea() {
+        return side*side;
     }
 
 }
