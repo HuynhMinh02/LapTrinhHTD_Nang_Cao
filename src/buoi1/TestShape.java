@@ -19,6 +19,7 @@ public class TestShape {
 
         Rectangle r = new Rectangle(6, 6);
 
-        System.out.println("Area = " + ca.calcArea(r));
+        System.out.println("Area = " + ca.calcArea());
+
     }
 }

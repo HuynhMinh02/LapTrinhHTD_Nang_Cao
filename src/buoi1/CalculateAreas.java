@@ -21,8 +21,8 @@ public class CalculateAreas {
 
     private double area;
 
-    public double calcArea(Rectangle r) {
-        area = r.length * r.width;
+    public double calcArea() {
+        area = s.length * s.width;
 
         return area;
     }
