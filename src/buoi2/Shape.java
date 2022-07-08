@@ -1,4 +1,4 @@
-package buoi1;
+package buoi2;
 
 public abstract class Shape {
     protected String name;
