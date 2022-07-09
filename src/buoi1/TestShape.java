@@ -29,6 +29,9 @@ public class TestShape {
 
         System.out.println("Area = " + ca.calcArea(s));
 
+
+        
+
         System.out.println("UU VIET HON ");
 
         System.out.println("Calc Rectangle");
