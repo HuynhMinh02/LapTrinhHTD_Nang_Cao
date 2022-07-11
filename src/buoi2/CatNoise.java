@@ -1,9 +1,10 @@
-public class DogNoise implements MakingNoise{
+package buoi2;
+public class CatNoise implements MakingNoise {
 
     @Override
     public String makeNoise() {
         // TODO Auto-generated method stub
-        return "Bark Bark Bark";
+        return "Meow Meow Meow";
     }
     
 }

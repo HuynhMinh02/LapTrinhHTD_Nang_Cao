@@ -1,3 +1,4 @@
+package buoi2;
 // package buoi2;
 
 // public interface IMammal {

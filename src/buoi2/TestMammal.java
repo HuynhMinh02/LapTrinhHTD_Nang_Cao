@@ -1,3 +1,4 @@
+package buoi2;
 public class TestMammal {
     public static void main(String[] args) {
         System.out.println("Start Program");

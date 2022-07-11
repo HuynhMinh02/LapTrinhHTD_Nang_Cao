@@ -1,3 +1,4 @@
+package buoi2;
 public class Square extends Shape {
 
     protected double side;

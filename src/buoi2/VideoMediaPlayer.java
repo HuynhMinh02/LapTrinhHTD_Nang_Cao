@@ -1,3 +1,4 @@
+package buoi2;
 public class VideoMediaPlayer extends MediaPlayer {
     
     public void playVideo(){

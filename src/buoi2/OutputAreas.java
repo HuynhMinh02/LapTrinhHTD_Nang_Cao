@@ -1,3 +1,4 @@
+package buoi2;
 
 public class OutputAreas {
     double areas = 0;
