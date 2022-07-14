@@ -3,7 +3,7 @@ public class TestMammal {
     public static void main(String[] args) {
         System.out.println("Start Program");
 
-        Mammal cat = new Mammal(new CatNoise());
+        Mammal cat = new Mammal();
         cat.setSpeaker(new CatNoise());
 
         Mammal dog = new Mammal(new DogNoise());
@@ -11,6 +11,9 @@ public class TestMammal {
 
         System.out.println("Cat says " + cat.makeNoise());
         System.out.println("Dogg says " + dog.makeNoise());
+
+
+
 
     }
 }
