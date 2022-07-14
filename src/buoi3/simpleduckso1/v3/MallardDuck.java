@@ -18,4 +18,8 @@ public class MallardDuck extends Duck implements Flyable , Quackable{
     public void quack() {
         System.out.println("Cap cap");
     }
+    public MallardDuck(){
+        flyBehavior = new FlyWithWings();
+        quackBehavior = new Quack();
+    }
 }

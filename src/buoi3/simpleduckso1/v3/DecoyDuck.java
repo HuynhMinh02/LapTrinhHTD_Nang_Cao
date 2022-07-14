@@ -7,5 +7,10 @@ public class DecoyDuck extends Duck{
        System.out.println("I am a Decoy Duck");
         
     }
+    public DecoyDuck(){
+        flyBehavior = new FlyNoWay();
+        quackBehavior = new Quack();
+    }
+    
     
 }

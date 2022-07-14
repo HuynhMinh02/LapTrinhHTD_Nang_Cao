@@ -12,4 +12,8 @@ public class RubberDuck extends Duck implements Quackable{
         System.out.println("Chip Chip...");
         
     }
+    public RubberDuck(){
+        flyBehavior = new FlyNoWay();
+        quackBehavior = new Quack();
+    }
 }
