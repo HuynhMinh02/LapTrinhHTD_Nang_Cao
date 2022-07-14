@@ -13,6 +13,7 @@ public class Main {
         KnifeBehavior knife = new KnifeBehavior();
         SwordBehavior sword = new SwordBehavior();
 
+        System.out.println("Star Program");
         king.fight();
         queen.fight();
         knight.fight();
