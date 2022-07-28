@@ -9,7 +9,7 @@ public class InputTest {
 		try {
 			InputStream in = new LowerCaseInputStream(
 					new BufferedInputStream(
-							new FileInputStream("test.txt")));
+							new FileInputStream("dulieu.txt")));
 
 			while ((c = in.read()) >= 0) {
 				System.out.print((char) c);
